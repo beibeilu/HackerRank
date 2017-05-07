@@ -8,3 +8,15 @@
 
 // Bit shift
 n >> = 1        // Same as n = n >> 1, shift right 1 bit, equivalent to n / 2
+
+  
+int n = in.nextInt();
+in.close();     //Close input
+
+
+public static int factorial(int n){
+        if (n > 1){
+            return n * factorial(n-1);
+        }
+        return 1; // base case
+}
